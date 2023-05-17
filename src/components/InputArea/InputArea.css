@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-wrap {
+  width: 375px;
+  background-color: #232426;
+  /* max-height: 128px; */
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.input-area {
+  width: 273px;
+}
+
+.btn-area {
+  width: 56px;
+  height: 28px;
+  background: #00f6d1;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.text-area {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  outline: none;
+  box-shadow: none !important;
+}
+
+textarea {
+  caret-color: #198cff;
+}
+
+/* 滚动条隐藏 */
+textarea::-webkit-scrollbar {
+  width: 0;
+  background-color: rgb(182, 214, 226);
+  opacity: 0;
+}
+textarea::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+  background-color: skyblue;
+  opacity: 0;
+}
+
+/* placeholder字体颜色 */
+textarea:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.45)!important;
+}
+
+textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.45)!important;
+}
+
+textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.45)!important;
+}
